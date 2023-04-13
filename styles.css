@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+#line{
+	background-color:black;
+	position:absolute;
+	left:35%;
+	top:50%;
+	height:2px;
+	width:200px;
+}
+
+.rotateLine{
+	transform: rotate(360deg);
+	transition: all 2s ease-in-out;
+}
